@@ -1,0 +1,119 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background:linear-gradient(134deg,blue,red);
+    /* background:rgb(221, 128, 221); */
+    font-family: 'Borel', cursive;
+    height: 100%;
+    
+}
+
+
+#container{
+   
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    font-family: 'Borel', cursive;
+}
+*{
+    font-family: 'Borel', cursive ;
+    border: none;
+    
+}
+#heading{
+    position: absolute;
+    top: 10px;
+    
+}
+#headingText{
+    font-family: 'Borel', cursive;
+    display: block;
+    font-size: 4rem;
+}
+#typeBox{
+    position:absolute;
+    display: flex;
+    top: 10rem;
+    justify-content: center;
+    /* border: 2px solid white; */
+    border-radius:26px ;
+    background: none;
+}
+#typeText{
+    height: 5rem;
+    width: 26rem;
+    position: relative;
+    top: 2px;
+    border-radius: 25px;
+    font-family: 'Borel', cursive;
+    
+}
+#btnSubmit{
+    position: absolute;
+    right: -2.5px;
+    height: 83px;
+    border-radius: 25px;
+    width: 129px;
+    top: 1px;
+    background: linear-gradient(135deg,purple 35%,red);
+}
+
+#btnSubmit:hover{    
+    background-color: black;
+    color: white;
+    border:2px solid white;
+    
+}
+#todoDisplay{
+    
+    position: absolute;
+    top: 17rem;
+    width: 26rem;
+    height: 100px;
+    font-size:larger;
+    color: white;
+}
+#msg{
+    display: inline;
+}
+#deleteBtn{
+    position: absolute;
+    left: 27rem;
+    border-radius: 25px;
+    width: 129px;
+    height:85px ;
+    background: linear-gradient(135deg,purple 35%,red);
+}
+#deleteBtn:hover{    
+    background-color: black;
+    color: white;
+    border:2px solid white;
+    
+}
+#msg{
+    width: 500px;
+}
+
+.img{
+    position:relative;
+    float:right;
+    width: 20px;
+    height: 20px;
+    top: 1px;
+    
+}
+.random{
+    padding: 0px;
+    border: none;
+    position:relative;
+    float: right;
+    margin: 0px;
+    
+    background:none;
+}
+.random img{
+    cursor: pointer;
+}
